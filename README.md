@@ -1,2 +1,2 @@
 # Mockup-Kinvo
-Practice project 
+Practice project (to be continued)
