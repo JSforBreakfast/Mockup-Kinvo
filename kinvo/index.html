@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Vitor Emanuel Layout Kinvo</title>
+    <link rel="stylesheet" href="css/kinvo_styles.css">
+    <link rel="stylesheet" href="css/reset.min.css">
+  </head>
+  <header class="topNav">
+  <a class="" href="#">
+    <img src="img/kinvopremium.png" width="170" height="30" alt="logo">
+  </a>
+</header>
+  <sidebar>
+    <nav class="sideNav">
+      <ul>
+        <li> <a href="#subject-1">Resumo da carteira </a></li>
+        <hr>
+        <li> <a href="#subject-2">Meus produtos</a></li>
+        <hr>
+        <li> <a href="#subject-3">Meus proventos</a></li>
+        <hr>
+        <li> <a href="#subject-4">Análise por produto</a></li>
+        <hr>
+        <li> <a href="#subject-5">Rentabilidade Rear</a></li>
+        <hr>
+        <li> <a href="#subject-6">Projeção da carteira</a></li>
+        <hr>
+        <li> <a href="#subject-7">Risco x Retorno</a></li>
+        <hr>
+        <li> <a href="#subject-8">Cobertura do FGC</a></li>
+        <hr>
+      </ul>
+    </nav>
+  </sidebar>
+  <body class="tables">
+  <h1 class= "grayAreaTitle"><p><strong>Análise por Classe de Ativos</strong></p></h1>
+  <div class="tabContainer">
+    <div class="buttonContainer">
+      <button onclick="showPanel(0,'#ffffff')">Ações</button>
+      <button onclick="showPanel(1,'#ffffff')">Nome</button>
+      <button onclick="showPanel(2,'#ffffff')">Nome</button>
+      <button onclick="showPanel(3,'#ffffff')">Nome</button>
+    </div>
+    <div>
+    <ul class= "dataButtons">
+      <li> <a id="dataButton" href="#">SALDO BRUTO <p>R$12.000</p></a></li>
+
+      <li> <a id="dataButton" href="#">VALOR APLICADO<p>R$12.000</p></a></li>
+
+      <li> <a id="dataButton" href="#">GANHO DE CAPITAL<p>R$12.000</p></a></li>
+
+      <li> <a id="dataButton" href="#">TOTAL DISTRIBUÍDO<p>R$12.000</p></a></li>
+
+      <li> <a id="dataButton" href="#">YIELD<p>20%</p></a></li>
+    </ul>
+    </div>
+    <div class="tabPanel">
+      <div id="acoes">
+        <h1>Fundos</h1>
+      </div>
+  <table id="myTable">
+    <tr class="header">
+      <th style="width:15%;"></th>
+      <th style="width:10%;">Saldo atual</th>
+      <th style="width:10%;">Quant</th>
+      <th style="width:10%;">Preço médio</th>
+      <th style="width:10%;">Última cotação</th>
+      <th style="width:10%;">Yeald</th>
+      <th style="width:10%;">Yield</th>
+      <th style="width:10%;">% Carteira</th>
+      <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Produto">
+    </tr>
+    <tr>
+      <td>ABEV3-AMBEV</td>
+      <td>1980,00</td>
+      <td>100</td>
+      <td>19,80</td>
+      <td>20,06</td>
+      <td>2,31%</td>
+      <td>12,31%</td>
+      <td>12,31%</td>
+    </tr>
+    <tr>
+      <td>LAXZ</td>
+      <td>1980,00</td>
+      <td>100</td>
+      <td>19,80</td>
+      <td>20,06</td>
+      <td>2,31%</td>
+      <td>12,31%</td>
+      <td>12,31%</td>
+    </tr>
+    <tr>
+      <td>NUBK</td>
+      <td>1980,00</td>
+      <td>100</td>
+      <td>19,80</td>
+      <td>20,06</td>
+      <td>2,31%</td>
+      <td>12,31%</td>
+      <td>12,31%</td>
+    </tr>
+    <tr>
+      <td>PTBR</td>
+      <td>1980,00</td>
+      <td>100</td>
+      <td>19,80</td>
+      <td>20,06</td>
+      <td>2,31%</td>
+      <td>12,31%</td>
+      <td>12,31%</td>
+    </tr>
+  </table>
+    </div>
+    <div class="tabPanel">Dashboard two</div>
+    <div class="tabPanel">Dashboard three</div>
+    <div class="tabPanel">Dashboard four</div>
+  </div>
+  <script src="js/actions.js"></script>
+  </body>
+</html>
